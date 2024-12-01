@@ -18,3 +18,5 @@ docker run --rm -i -t ghcr.io/hellt/netconf-console2:3.0.1 \
 # considering 3.0.1 is the intended version
 bash build.sh 3.0.1
 ```
+
+The build step aslo includes the push action, so on successful build the linux/arm64 and linux/amd64 images will be pushed to the ghcr.io repository.
